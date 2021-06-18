@@ -1,0 +1,2 @@
+rootProject.name = "posicionG9"
+include ':app'
