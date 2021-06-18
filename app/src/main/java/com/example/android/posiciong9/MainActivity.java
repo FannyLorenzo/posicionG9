@@ -53,9 +53,8 @@ public class MainActivity extends AppCompatActivity {
         sensorEventListener = new SensorEventListener() {
             @Override
             public void onSensorChanged(SensorEvent sensorEvent) {
-                double errorTolerable = 0.5;
-                double li = 5; //limite X
-                double lj = 10; //limite y
+                double li = 5;
+                double lj = 10;
 
                 float x=sensorEvent.values[0];
                 float y=sensorEvent.values[1];
